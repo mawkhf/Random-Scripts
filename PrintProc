@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo ls -l /proc | tee ~/Documents/Bash/procOutput.txt
+clear
+sudo ls -l /dev | tee ~/Documents/Bash/devOutput.txt
